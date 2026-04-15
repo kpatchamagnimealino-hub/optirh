@@ -9,7 +9,7 @@
     <!-- EN-TÊTE -->
     <div class="guide-header">
         <h1>Guide Utilisateur OptiHR</h1>
-        <p>Plateforme de Gestion des Ressources Humaines - ARCOP MAN</p>
+        <p>Plateforme de Gestion des Ressources Humaines - ARCOP RH</p>
     </div>
 
     <!-- NAVIGATION -->
@@ -34,7 +34,7 @@
         <h2>1. Introduction / À propos</h2>
 
         <h3>Qu'est-ce qu'OptiHR ?</h3>
-        <p>OptiHR est une application de gestion des ressources humaines intégrée à la plateforme ARCOP MAN. Elle permet de centraliser et simplifier la gestion du personnel, des absences, des documents administratifs et de la communication interne.</p>
+        <p>OptiHR est une application de gestion des ressources humaines intégrée à la plateforme ARCOP RH. Elle permet de centraliser et simplifier la gestion du personnel, des absences, des documents administratifs et de la communication interne.</p>
 
         <h3>Fonctionnalités principales</h3>
         <table class="guide-table">
@@ -101,7 +101,7 @@
         <h3>Connexion à l'application</h3>
         <div class="guide-step">
             <span class="guide-step-number">1</span>
-            Accédez à la page de connexion ARCOP MAN
+            Accédez à la page de connexion ARCOP RH
         </div>
         <div class="guide-step">
             <span class="guide-step-number">2</span>
@@ -144,7 +144,7 @@
         <p>Activez le mode sombre via le commutateur <strong>"Mode Sombre"</strong> dans la barre latérale pour un affichage plus confortable en conditions de faible luminosité.</p>
 
         <h3>Portail d'Applications</h3>
-        <p>Le lien <strong>"Portail d'Applications"</strong> en bas de la barre latérale vous permet de retourner au portail principal ARCOP MAN pour accéder aux autres applications.</p>
+        <p>Le lien <strong>"Portail d'Applications"</strong> en bas de la barre latérale vous permet de retourner au portail principal ARCOP RH pour accéder aux autres applications.</p>
     </section>
 
     <!-- SECTION 3: TABLEAU DE BORD -->
