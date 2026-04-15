@@ -7,7 +7,7 @@
     <h1>1. Introduction</h1>
 
     <h2>Qu'est-ce qu'OptiHR ?</h2>
-    <p>OptiHR est une application de gestion des ressources humaines intégrée à la plateforme ARCOP MAN. Elle permet de centraliser et simplifier la gestion du personnel, des absences, des documents administratifs et de la communication interne.</p>
+    <p>OptiHR est une application de gestion des ressources humaines intégrée à la plateforme ARCOP RH. Elle permet de centraliser et simplifier la gestion du personnel, des absences, des documents administratifs et de la communication interne.</p>
 
     <h2>Fonctionnalités principales</h2>
     <table class="guide-table">

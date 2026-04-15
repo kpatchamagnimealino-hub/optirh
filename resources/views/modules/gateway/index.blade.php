@@ -30,7 +30,7 @@
                             <div class="logo-arc green"></div>
                         </div>
                     </div>
-                    <h1 class="main-title">ARCOP <span>MAN</span></h1>
+                    <h1 class="main-title">ARCOP <span>RH</span></h1>
                     <p class="tagline">Votre portail d'applications intégré</p>
                 </div>
 

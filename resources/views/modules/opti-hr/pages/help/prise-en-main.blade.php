@@ -9,7 +9,7 @@
     <h2>Connexion à l'application</h2>
     <div class="guide-step">
         <span class="guide-step-number">1</span>
-        Accédez à la page de connexion ARCOP MAN
+        Accédez à la page de connexion ARCOP RH
     </div>
     <div class="guide-step">
         <span class="guide-step-number">2</span>
@@ -52,6 +52,6 @@
     <p>Activez le mode sombre via le commutateur <strong>"Mode Sombre"</strong> dans la barre latérale pour un affichage plus confortable en conditions de faible luminosité.</p>
 
     <h2>Portail d'Applications</h2>
-    <p>Le lien <strong>"Portail d'Applications"</strong> en bas de la barre latérale vous permet de retourner au portail principal ARCOP MAN pour accéder aux autres applications.</p>
+    <p>Le lien <strong>"Portail d'Applications"</strong> en bas de la barre latérale vous permet de retourner au portail principal ARCOP RH pour accéder aux autres applications.</p>
 </div>
 @endsection

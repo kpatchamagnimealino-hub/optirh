@@ -17,7 +17,7 @@
                                     <span>A</span>
                                 </div>
                             </div>
-                            <h1 class="brand-title">ARCOP MAN</h1>
+                            <h1 class="brand-title">ARCOP RH</h1>
                             <p class="brand-tagline">Plateforme de gestion intégrée</p>
                         </div>
 
@@ -48,7 +48,7 @@
                             <div class="d-inline-block app-logo-sm">
                                 <span>A</span>
                             </div>
-                            <h2 class="mt-2 brand-title-sm">ARCOP MAN</h2>
+                            <h2 class="mt-2 brand-title-sm">ARCOP RH</h2>
                         </div>
 
                         <!-- Formulaire de connexion -->
