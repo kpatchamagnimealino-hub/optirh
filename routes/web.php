@@ -20,6 +20,7 @@ use App\Http\Controllers\ActivityLogController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
 // Contrôleurs du module OptiHR
+use App\Http\Controllers\Admin\SignatureController;
 use App\Http\Controllers\OptiHr\AbsenceController;
 use App\Http\Controllers\OptiHr\AbsenceTypeController;
 use App\Http\Controllers\OptiHr\AnnualDecisionController;
@@ -388,6 +389,20 @@ Route::group(['middleware' => 'auth'], function () {
 
                 // Si vous souhaitez ajouter une route pour voir les détails d'un log spécifique
                 Route::get('/{log}', [ActivityLogController::class, 'show'])->name('activity-logs.show');
+            });
+        });
+
+        /*
+         * Admin - Gestion des paramètres
+         */
+        Route::prefix('admin')->name('admin.')->group(function () {
+            /*
+             * Signature du DG
+             */
+            Route::prefix('signature')->name('signature.')->group(function () {
+                Route::get('/', [SignatureController::class, 'show'])->name('show');
+                Route::post('/upload', [SignatureController::class, 'upload'])->name('upload');
+                Route::delete('/delete', [SignatureController::class, 'delete'])->name('delete');
             });
         });
 

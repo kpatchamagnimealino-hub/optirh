@@ -697,13 +697,16 @@ class AbsenceController extends Controller
             $oldStage = $absence->stage;
             $oldLevel = $absence->level;
 
-            $receiver = User::role('GRH')->first();
+            $receiver = null;
             $toEmployee = false;
 
             switch ($absence->level) {
                 case 'ZERO':
                     $absence->stage = 'IN_PROGRESS';
                     $absence->level = 'ONE';
+                    $receiver = auth()->user()->hasRole('GRH')
+                        ? User::role('DG')->first()
+                        : User::role('GRH')->first();
                     break;
 
                 case 'ONE':

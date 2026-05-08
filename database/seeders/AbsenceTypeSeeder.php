@@ -38,6 +38,21 @@ class AbsenceTypeSeeder extends Seeder
                 'is_deductible' => false,
 
             ],
+            [
+                'label' => 'déductible',
+                'description' => 'Absence pour une raison personnelle',
+                'status' => 'ACTIVATED',
+                'type' => 'NORMAL',
+                'is_deductible' => true,
+            ],
+            [
+                'label' => 'paternité',
+                'description' => 'Absence pour les pères au foyer',
+                'status' => 'ACTIVATED',
+                'type' => 'EXCEPTIONAL',
+                'is_deductible' => false,
+
+            ],
         ];
 
         // Insérer les types d'absence fixes

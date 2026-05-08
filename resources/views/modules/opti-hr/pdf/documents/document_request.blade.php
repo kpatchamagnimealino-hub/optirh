@@ -103,7 +103,17 @@
         </div>
 
         <div class="signature">
-            <span class="variable">{{ "{$dg->last_name} {$dg->first_name}" }}</span>
+            @php
+                $signatureImage = \App\Services\SignatureService::getSignatureAsImage();
+            @endphp
+
+            @if($signatureImage)
+                <img src="{{ $signatureImage }}" alt="Signature du DG" style="max-width: 150px; height: auto; margin-bottom: 10px;">
+            @endif
+
+            <div style="margin-top: 30px;">
+                <span class="variable">{{ "{$dg->last_name} {$dg->first_name}" }}</span>
+            </div>
         </div>
     </div>
 </body>
